@@ -22,3 +22,7 @@ Into this:
 
 
 See [Github](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)
+
+## Source
+
+[Design Studio 1-Page Template](https://github.com/website-templates/design-studio_one-page-template.git)
