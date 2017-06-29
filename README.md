@@ -30,3 +30,12 @@ The site is based on [Design Studio 1-Page Template](https://github.com/website-
 Basic development lifecycle is to checkout the branch into one folder and develop using `gulp` etc. Then once build (`gulp rebuild`), copy the artifacts in the `build` folder to another checkout version of `master`. 
 
 Never attempt to merge the two branches!
+
+To get the `template` branch building (as per [Design Studio 1-Page Template](https://github.com/website-templates/design-studio_one-page-template.git)) try randomly running these commands.
+
+```
+npm install gulp
+npm install
+gulp install
+gulp dev
+```
