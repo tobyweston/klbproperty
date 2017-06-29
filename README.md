@@ -25,4 +25,8 @@ See [Github](https://help.github.com/articles/using-a-custom-domain-with-github-
 
 ## Source
 
-[Design Studio 1-Page Template](https://github.com/website-templates/design-studio_one-page-template.git)
+The site is based on [Design Studio 1-Page Template](https://github.com/website-templates/design-studio_one-page-template.git) which was forked and pushed to the `template` branch.
+
+Basic development lifecycle is to checkout the branch into one folder and develop using `gulp` etc. Then once build (`gulp rebuild`), copy the artifacts in the `build` folder to another checkout version of `master`. 
+
+Never attempt to merge the two branches!
