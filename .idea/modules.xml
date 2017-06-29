@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/design-studio_one-page-template.iml" filepath="$PROJECT_DIR$/design-studio_one-page-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/klbproperty-branch.iml" filepath="$PROJECT_DIR$/.idea/klbproperty-branch.iml" />
     </modules>
   </component>
 </project>
