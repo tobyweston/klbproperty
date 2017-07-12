@@ -36,6 +36,7 @@ cd klbproperty-branch
 gulp build
 cd ../klbproperty
 cp -r ../klbproperty-branch/build/static/ static/
+cp ../klbproperty-branch/build/home.html ./index.html
 ```
 
 To get the `template` branch building (as per [Design Studio 1-Page Template](https://github.com/website-templates/design-studio_one-page-template.git)) try randomly running these commands.
