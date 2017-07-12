@@ -1,0 +1,211 @@
+.testimonial
+  margin: 0 10px
+  .testimonial-content
+    margin: 20px 0 50px 0
+    position: relative
+    &:after
+      content: ""
+      width: 20px
+      height: 20px
+      border-top: 20px solid #DCCC55
+      border-left: 20px solid transparent
+      border-right: 20px solid transparent
+      margin: 0 auto
+      position: absolute
+      bottom: -20px
+      left: 0
+      right: 0
+  .description
+    padding: 25px 35px
+    margin: 0
+    background: #DCCC55
+    border-radius: 15px
+    font-size: 20px
+    color: #fff
+    position: relative
+    &:before, &:after
+      font-family: 'FontAwesome'
+      font-size: xx-large
+      width: 55px
+      height: 35px
+      line-height: 35px
+      border-radius: 8px
+      text-align: center
+      background: #DCCC55
+      position: absolute
+    &:before
+      content: "\f10d"
+      top: -18px
+      left: 25px
+    &:after
+      content: "\f10e"
+      bottom: -18px
+      right: 25px
+  .testimonial-profile
+    display: table
+    padding: 15px
+    border: 1px solid #DCCC55
+    border-radius: 20px
+    margin: 0 auto
+    position: relative
+  .pic
+    width: 100px
+    height: 100px
+    border-radius: 50%
+    border: 1px solid #DCCC55
+    float: left
+    overflow: hidden
+  .title
+    display: inline-block
+    //margin: 0 0 0 30px
+    font-size: 19px
+    font-weight: bold
+    color: #DCCC55
+    position: relative
+    //top: 22px
+    //&:before
+    //  content: ""
+    //  width: 1px
+    //  height: 70px
+    //  background: #DCCC55
+    //  position: absolute
+    //  top: -8px
+    //  left: -15px
+  .post
+    display: block
+    font-size: 14px
+    font-weight: normal
+    color: #888
+    margin-top: 10px
+
+
+.owl-theme .owl-controls
+  margin-top: 30px
+  .owl-page
+    span
+      background: transparent
+      border: 1px solid #DCCC55
+      opacity: 1
+    &.active span
+      background: #DCCC55
+      border: 1px solid #DCCC55
+
+@media only screen and (max-width: 479px)
+  .testimonial
+    .description
+      padding: 20px
+      font-size: 16px
+    .testimonial-profile
+      padding: 10px
+    .title
+      font-size: 16px
+    .post
+      font-size: 13px
+
+
+.owl-carousel
+  .owl-wrapper
+    &:after
+      content: "."
+      display: block
+      clear: both
+      visibility: hidden
+      line-height: 0
+      height: 0
+    display: none
+    position: relative
+    -webkit-transform: translate3d(0, 0, 0)
+  display: none
+  position: relative
+  width: 100%
+  -ms-touch-action: pan-y
+  .owl-wrapper-outer
+    overflow: hidden
+    position: relative
+    width: 100%
+    &.autoHeight
+      -webkit-transition: height 500ms ease-in-out
+      -moz-transition: height 500ms ease-in-out
+      -ms-transition: height 500ms ease-in-out
+      -o-transition: height 500ms ease-in-out
+      transition: height 500ms ease-in-out
+  .owl-item
+    float: left
+
+.owl-controls
+  .owl-page, .owl-buttons div
+    cursor: pointer
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+
+.grabbing
+  cursor: url(grabbing.png) 8 8, move
+
+.owl-carousel
+  .owl-wrapper, .owl-item
+    -webkit-backface-visibility: hidden
+    -moz-backface-visibility: hidden
+    -ms-backface-visibility: hidden
+    -webkit-transform: translate3d(0, 0, 0)
+    -moz-transform: translate3d(0, 0, 0)
+    -ms-transform: translate3d(0, 0, 0)
+
+.owl-theme .owl-controls
+  margin-top: 10px
+  text-align: center
+  .owl-buttons div
+    color: #FFF
+    display: inline-block
+    zoom: 1
+    *display: inline
+    margin: 5px
+    padding: 3px 10px
+    font-size: 12px
+    -webkit-border-radius: 30px
+    -moz-border-radius: 30px
+    border-radius: 30px
+    background: #869791
+    filter: Alpha(Opacity = 50)
+    opacity: .5
+  &.clickable .owl-buttons div:hover
+    filter: Alpha(Opacity = 100)
+    opacity: 1
+    text-decoration: none
+  .owl-page
+    display: inline-block
+    zoom: 1
+    *display: inline
+    span
+      display: block
+      width: 12px
+      height: 12px
+      margin: 5px 7px
+      filter: Alpha(Opacity = 50)
+      opacity: .5
+      -webkit-border-radius: 20px
+      -moz-border-radius: 20px
+      border-radius: 20px
+      background: #869791
+    &.active span
+      filter: Alpha(Opacity = 100)
+      opacity: 1
+  &.clickable .owl-page:hover span
+    filter: Alpha(Opacity = 100)
+    opacity: 1
+  .owl-page span.owl-numbers
+    height: auto
+    width: auto
+    color: #FFF
+    padding: 2px 10px
+    font-size: 12px
+    -webkit-border-radius: 30px
+    -moz-border-radius: 30px
+    border-radius: 30px
+
+.owl-item.loading
+  min-height: 150px
+  background: url(static/images/AjaxLoader.gif) no-repeat center center

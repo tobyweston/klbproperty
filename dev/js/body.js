@@ -4,3 +4,4 @@
 //= vendor/jquery.js
 //= lib/jquery.navkit.js
 //= lib/jquery.portfolio.js
+//= lib/testimonial.js
