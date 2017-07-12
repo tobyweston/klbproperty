@@ -31,6 +31,13 @@ Basic development lifecycle is to checkout the branch into one folder and develo
 
 Never attempt to merge the two branches!
 
+```
+cd klbproperty-branch
+gulp build
+cd ../klbproperty
+cp -r ../klbproperty-branch/build/static/ static/
+```
+
 To get the `template` branch building (as per [Design Studio 1-Page Template](https://github.com/website-templates/design-studio_one-page-template.git)) try randomly running these commands.
 
 ```
