@@ -4,3 +4,4 @@ npm-debug.log
 bower_components/
 build
 .idea/klbproperty-branch.iml
+.idea/workspace.xml
