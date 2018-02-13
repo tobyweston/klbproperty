@@ -27,6 +27,8 @@ See [Github](https://help.github.com/articles/using-a-custom-domain-with-github-
 
 See [this post](https://tjkelly.com/blog/gmail-godaddy-email-forwarding/)
 
+![](email_formwarding.gif]
+
 ## Source
 
 The site is based on [Design Studio 1-Page Template](https://github.com/website-templates/design-studio_one-page-template.git) which was forked and pushed to the `template` branch.
