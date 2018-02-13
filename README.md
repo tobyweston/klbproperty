@@ -27,7 +27,7 @@ See [Github](https://help.github.com/articles/using-a-custom-domain-with-github-
 
 See [this post](https://tjkelly.com/blog/gmail-godaddy-email-forwarding/)
 
-![](email_formwarding.gif]
+![](email_formwarding.gif)
 
 ## Source
 
